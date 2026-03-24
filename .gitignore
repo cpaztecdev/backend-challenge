@@ -1,0 +1,12 @@
+# Compilados
+/target/
+
+# IDE
+/.idea/
+*.iml
+
+# Logs
+*.log
+
+# Variables de entorno
+.env
