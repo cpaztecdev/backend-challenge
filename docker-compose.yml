@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  ms-clients:
+    build: ./ms-clients
+    ports:
+      - "8081:8081"
+
+  ms-orders:
+    build: ./ms-orders
+    ports:
+      - "8082:8082"
+    depends_on:
+      - ms-clients
